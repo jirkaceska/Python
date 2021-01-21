@@ -1,0 +1,16 @@
+digraph {
+node [color=lightblue2,style=filled]
+6564272 [label="5"]
+L6564272 [label="",color=white]
+6564272 -> L6564272
+6564336 [label="4"]
+6564400 [label="4.5"]
+L6564400 [label="",color=white]
+6564400 -> L6564400
+R6564400 [label="",color=white]
+6564400 -> R6564400
+6564336 -> 6564400
+R6564336 [label="",color=white]
+6564336 -> R6564336
+6564272 -> 6564336
+}
